@@ -1,0 +1,33 @@
+nav {
+    position: relative;
+  }
+#a {
+    width: 100px;
+    margin-left: 20px;
+    position: relative;
+    animation: slidein 10s linear 1s infinite running ;
+}
+@keyframes slidein
+{
+    from 
+    {
+        left:0px; 
+    }
+    to 
+    {
+        left: 400px;
+    }
+        
+}  
+#div{
+    margin-left: 500px;
+}
+#h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+}
+#divshop{
+    margin-left: 500px;
+    margin-top: 50px;
+}
